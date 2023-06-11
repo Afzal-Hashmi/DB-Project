@@ -1,0 +1,109 @@
+<?php
+function color(string  $color){
+
+    switch($color)
+    {
+        case"Black":
+            $color=1;
+            break;
+        case"Blue":
+            $color=2;
+            break;
+        case"Beige":
+            $color=3;
+            break;
+        case"Brown":
+            $color=4;
+            break;
+        case"Gray":
+            $color=5;
+            break;
+        case"Cream":
+            $color=6;
+            break;
+        case"White":
+            $color=7;
+            break;
+        case"Pink":
+            $color=8;
+            break;
+        case"Neon":
+            $color=9;
+            break;
+        case"Red":
+            $color=10;
+            break;
+        case"Tan":
+            $color=11;
+            break;
+        case"Green":
+            $color=12;
+            break;
+        case"Yellow":
+            $color=13;
+            break;
+        case"Orange":
+            $color=14;
+            break;
+        default:
+        echo "<script> alert('Enter Correct Color')</script>"   ;     
+            echo "<script>window.location.href='../products.php'</script>";
+    }
+    return $color;
+}
+function size(float $size){
+
+    switch($size)
+    {
+        case"4.0":
+            $size=1;
+            break;
+        case"5.0":
+            $size=2;
+            break;
+        case"6.0":
+            $size=3;
+            break;
+        case"6.5":
+            $size=4;
+            break;
+        case"7.0":
+            $size=5;
+            break;
+        case"7.5":
+            $size=6;
+            break;
+        case"8.0":
+            $size=7;
+            break;
+        case"8.5":
+            $size=8;
+            break;
+        case"9.0":
+            $size=9;
+            break;
+        case"9.5":
+            $size=10;
+            break;
+        case"10.0":
+            $size=11;
+            break;
+        case"10.5":
+            $size=12;
+            break;
+        case"11.0":
+            $size=13;
+            break;
+        case"12.0":
+            $size=14;
+            break;
+        case"13.0":
+            $size=15;
+            break;
+        default:
+            echo "<script> alert('Enter Correct Shoe Size')</script>" ;       
+            echo "<script>window.location.href='../products.php'</script>";
+    }
+    return $size;
+}
+?>
